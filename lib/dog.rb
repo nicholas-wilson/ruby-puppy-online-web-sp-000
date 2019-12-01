@@ -18,6 +18,10 @@ class Dog
     end
   end
 
+  def self.clear_all
+    @@all = []
+  end
+
   private
   def save
     @@all << self
