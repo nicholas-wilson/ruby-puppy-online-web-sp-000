@@ -17,6 +17,7 @@ class Dog
     @@all.each do |each|
       to_print += "#{each} "
     end
+    puts to_print
   end
 
   def self.clear_all
